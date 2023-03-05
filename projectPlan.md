@@ -1,11 +1,11 @@
 
-# Plans for my final project: Concentration
+# Plans for Match Match (card game)
 
 ## Elevator pitch
 
-To play the **Memory** card game, a deck of cards is spread out and laid face down. The player (or players) take turns in flipping two cards face up. The goal is to find the matching pairs of cards. 
+To play this card game, a deck of cards is spread out and laid face down. The player (or players) take turns in flipping two cards face up. The goal is to find the matching pairs of cards. 
 
-This game is also known as *Concentration, Matching Pairs, Match Match*, or *Match Up*. Here is the [Wikipedia article](https://en.wikipedia.org/wiki/Concentration_(card_game)) on this game.
+This game is also known as *Memory, Concentration, Matching Pairs*, or *Match Up*. Here is the [Wikipedia article](https://en.wikipedia.org/wiki/Concentration_(card_game)) on this game.
 
 Last year, I implemented a 1-player version of this game using vanilla HTML, CSS, and JS. Here is my [GH repo](https://github.com/N-M-Luna/memory-card-game) and here is the [single-page app](https://n-m-luna.github.io/memory-card-game/). For my final project, I'd like to re-make this app using React; or *reactify my app*, if you will.
 
