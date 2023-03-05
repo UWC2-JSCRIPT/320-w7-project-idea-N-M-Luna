@@ -60,14 +60,14 @@ For layout and style, I *might* use Bootstrap. If authentication is being implem
 
 1. Make a first draft. 
 
-  1. Make a react app that has a `<GameBoard>` component with 16 `<Card>` components. The card's back will be an `<img>` and the card face will be one of eight different font awesome icons.
-  2. Whenever the user clicks on a card, it flips over.
-  3. Use JavaScript to "shuffle the cards" when the app starts.
+   1. Make a react app that has a `<GameBoard>` component with 16 `<Card>` components. The card's back will be an `<img>` and the card face will be one of eight different font awesome icons.
+   2. Whenever the user clicks on a card, it flips over.
+   3. Use JavaScript to "shuffle the cards" when the app starts.
 
 2. Implement game logic. 
 
-  1. After the user clicks on two cards, we need to count the turn and then one of two things happen. Either the cards match and we update the status of those two cards as "solved"; or they don't match and we flip them back.
-  2. When all the cards in the deck have been solved, send an alert with the player's score.
+   1. After the user clicks on two cards, we need to count the turn and then one of two things happen. Either the cards match and we update the status of those two cards as "solved"; or they don't match and we flip them back.
+   2. When all the cards in the deck have been solved, send an alert with the player's score.
 
 3. Use `Routes` to add a start game route and a game over route. The start game route is just a button to start the game. And the game over route displays the player's score (i.e., number of turns) and has a button to play again.
 
@@ -75,8 +75,8 @@ For layout and style, I *might* use Bootstrap. If authentication is being implem
 
 5. Add in the extras.
 
-  1. Social icons in the footer.
-  2. User can change levels. 
-  3. Browser remembers highest score. 
-  4. User can sign in to keep a record of their highest score.
-  5. User can share their score in social media.
+   1. Social icons in the footer.
+   2. User can change levels. 
+   3. Browser remembers highest score. 
+   4. User can sign in to keep a record of their highest score.
+   5. User can share their score in social media.
